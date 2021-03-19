@@ -1,0 +1,71 @@
+% Credit:	Krish Gandhi | ID: 1621641 | CMPUT 274, Fall 2020 | Weekly Exercise #5: New Training Data, Task III
+%pos-features soccer nutrition ball pass forward defenders midfielders goalkeeper training position improve pitch
+%pos-label #soccer_coach
+%
+%
+#soccer_coach		control and dribbling in tight areas
+#soccer_coach		work hard in training
+#soccer_coach		observe the position of the goalkeeper
+#soccer_coach		pass quickly
+#soccer_coach		making forward runs
+#soccer_coach		communicate with your team
+#soccer_coach		anticipate the next play
+#soccer_coach		put your non-kicking foot alongside the ball
+#soccer_coach		win back possession
+#soccer_coach		focus not only on technique, but on tactics as well
+#soccer_coach		shot on target
+#soccer_coach		how many touches should a player make
+#soccer_coach		increase your fitness level
+#soccer_coach		lead by example
+#soccer_coach		speard out on the pitch as much as possible
+#soccer_coach		proper nutrition and hydration
+#soccer_coach		positive self-talk
+#soccer_coach		be mentally strong
+#soccer_coach		learn to pass using both feet
+#soccer_coach		win your own battle on the pitch
+#soccer_coach		learn from each soccer game and improve in the next one
+#soccer_coach		a player must have a burning passion for soccer
+#soccer_coach		watch and learn from how the best players in your position play
+#soccer_coach		defenders need to be patient and wait for the forward's mistake
+#soccer_coach		when in doubt, kick the ball out to a corner or sideline
+#soccer_coach		shield the ball with your body
+#soccer_coach		go slow at defenders to bring them in and then burst past them with speed
+#soccer_coach		use your shoulder and body to beat defenders with subtle feints
+#soccer_coach		learn to calmly pass the ball past the goalkeeper
+#soccer_coach		accept pases with the foot farthest from your opponent
+#soccer_coach		a goalkeeper needs to stay on the tips of his toes
+#soccer_coach		midfielders should take a shot at goal when near the 18 yard box
+#soccer_coach		develop field vision
+#soccer_coach		don't force a dribble
+#soccer_coach	    set personal goals and have a plan for achieving them
+#soccer_coach		jump role to build foot coordination and speed
+#soccer_coach		study the strengths and weaknesses of opponents before each game
+#soccer_coach		practice finesse moves and learn passing tactics
+#soccer_coach		play fifa to help with your tactical game
+#soccer_coach		prioritize recovery to prevent injuries
+#soccer_coach		maintain dicipline, focus and fair play
+%
+%
+#negative		i went bungee jumping
+#negative		the hockey player received an award
+#negative		he made a homerun
+#negative		climbing mountains
+#negative		she did more experiments to improve her results
+#negative		i played a game on my computer
+#negative		a lot of work was put in to make an assignment
+#negative		winter is coming
+#negative		i had eggs for breakfast
+#negative		my brother ate pizza fordinner
+#negative		i just bought a new tv
+#negative		engineering calculator
+#negative		i like computing science
+#negative		iphone or android
+#negative		it's my birthday
+#negative		the colour of the house was gray
+#negative		can you pass the salt
+#negative		amazon shopping
+#negative		there are different logic gates
+#negative		i prefer to write with a pencil
+#negative		i got a birdie on my first hole
+#negative		we got two racquets 
+#negative		i found an amethyst rock

@@ -1,0 +1,36 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Exercise #3: Word Frequency
+
+Running Instructions:
+	1. Open a terminal on Linux and change the directory to the one
+	containing the "freq.py" file.
+	2. Run the following command: "python3 freq.py <input_file_name>".
+	3. Here, <input_file_name> should be replaced with the name of the
+	file containing the inputs that the program will read from.
+
+Assumptions:
+	1. The input file will always be located in the same directory as
+	freq.py.
+	2. The input file will always be in plaintext.
+	3. The output file destination will be either empty or does not exist
+	when the program beings to run.
+	4. The filename will be a string. The program was not created to
+	check if the filename is a string.
+
+Notes:
+	1. The program will present an error message if the filename does not
+	exist in the current directory.
+	2. The program will present an error message if the input file does
+	not contain any words, and no output file will be created.
+	3. The program will overwrite the contents of <input_file_name>.out if
+	it already exists in the current directory.
+	4. The output file will be in plaintext, and the frequency table will
+	be written in lexicographic order by the unique words found in the
+	input file.
+	5. The relative frequency will be a number in the range [0,1] that is
+	the ratio of the count for the word to the total number of words found
+	in the input file. The relative frequency is rounded to 3 decimal 
+	places using the round() function.

@@ -1,0 +1,48 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Assignment #7: Dr. Moneybags
+
+Running Instructions:
+	1. Open a terminal on Linux and change the directory to the one
+	containing the "moneybags.py" file.
+	2. The program can be run in the following ways:
+		a) Enter the following command:
+			"python3 moneybags.py".
+		In this way, the program takes standard input.
+		b) Enter the following command:
+			"python3 moneybags.py < input_file_name > output_file_name"
+		This way is using I/O redirection and printing the output of the
+		moneybags.py file to the "output_file_name" file. Here, the
+		"input_file_name" file must be in the same directory as the
+		moneybags.py file.
+		c) Enter the following command:
+			"./opentestcenter.sh"
+		Click "Run" -> "Run all" in the Test Center application window to
+		run all the tests.
+
+Assumptions:
+	1. The moneybags.py program was written to run in O(nlog(n)) time.
+	2. The user enters a single integer n (0 <= n < = 100000), where n is
+	the number of applicants to the club. For the next n lines that
+	follow, the user enters a single integer w (0 <= w < = 1000000000),
+	that represent's the net worth of an applicant, in millions of dollars.
+	The program was not created to handle unexpected data type inputs for
+	the two cases of inputs as stated previously.
+	3. The get_threshold() function will return a 0 for the minimum
+	millions of dollars required for an applicant to join Dr. Moneybag's
+	elite club if there are zero applicants, or all the applicants have a
+	net worth of zero millions of dollars.
+
+Notes:
+	1. The list comprehension used in get_input() function to obtain the
+	net worth of all the applicants would have a time complexity of O(n).
+	2. The sort() function used in get_input() function to sort the list
+	of the net worth of all the applicants in ascending order would have
+	an average and worst case time complexity of O(nlog(n)).
+	3. The single for loop used in get_threshold() function to iterate for
+	the number of applicants would have a worst case time complexity of
+	O(n).
+	4. A main() function was created to call get_input() and
+	get_threshold() functions in order to modularize the code.

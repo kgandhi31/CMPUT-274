@@ -1,0 +1,26 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Exercise #1: Password Validator
+
+Included Files:
+	* validator.py 
+		- A program that checks if a user's input of a password classifies as "Invalid", "Secure", or "Insecure" based on a specific list of criteria.
+		- The program then generates a "Secure" password of length n, where n is a number the user inputs.
+	* README
+		- Includes information to assist others in understanding the "validator.py" file.
+
+Running Instructions:
+	1.	Open a terminal on Linux and change the directory to the one containing the "validator.py" file.
+	2. 	Run the following command: "python3 validator.py".
+	3. 	Follow the on-screen instructions.
+
+Assumptions: 
+	1. 	The program assumes the user inputs only numerical characters for password generation. The program was not created to handle unexpected data type inputs.
+
+Notes: 
+	1.	For password generation, a string error message is returned if the value of n is not greater than 7.
+	2.	Each required character type (Uppercase, Lowercase, Decimal, Special) is included within every four characters, starting from the index value 0. Therefore, the number of times each required character type is repeated will be equal if n is divisble by 4 (since there are 4 required character types). If n is not divisible by 4, the password generated will still have as close of an equal proportion of each required character type. 
+	3.	Although each required character type is included within every four characters, the position of each character type is randomized using the "random.shuffle(char_type_list)" function call.
+	4.	An addition of a new character to the password is also randomized with the use of "random.choice(type)" function call.

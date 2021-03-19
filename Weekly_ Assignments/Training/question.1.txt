@@ -1,0 +1,7 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Exercise #5: New Training Data, Task II
+
+The positive features of my training dataset, soccer_coach, are specific attributes of the sport soccer that were discussed in a conversation with a soccer coach. The sentiment analysis that was intended by this training dataset was to classify advice from a soccer coach that can help to improve a soccer player's performance in a game. Accordingly, positive features such as “soccer”, “nutrition”, “training”, and “improve” were chosen for this purpose. However, one can notice that “position”, “forward”, and “defenders” are positive features that are applicable to other sport discussion. Nonetheless, due to the context of my dataset, it was vital to include these positive features that would classify the soccer coach’s advice in order help a soccer player, regardless of what position they play on the pitch, play more intelligently. Another strategy I used in selecting positive features was choosing words which were closely associated to soccer, and repeated themselves multiple times in the dataset. Hence, I recognized words such as “ball”, “pass” and “pitch” to be included as positive features. Lastly, I did not include every word related to soccer as the current set of positive features has an accuracy greater than 0.70 that satisfies Task II of the assignment, but more importantly this accuracy would decrease if I was to add words such as “game” and “player”. The reason for this is because these words also appear in the negative training instances.

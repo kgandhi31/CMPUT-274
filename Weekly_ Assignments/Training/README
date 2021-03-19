@@ -1,0 +1,26 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Exercise #5: New Training Data
+
+Included Files:
+	* new.training.txt 
+		- The original training dataset, which incluces at least 20 positive training instances and at least 20 negative training instances. This training dataset consists of the advice shared from a soccer coach about improving a soccer player's performance on the pitch.
+	* question.1.txt
+		- The answer to Question #1 in Task II of the assignment.
+	* task.3.txt.
+		- A modified version of the orginal training dataset that outputs a precision above 0.90 and an accuracy below 0.65.
+	* question.2.txt
+		- The answer to Question #2 in Task III of the assignment.
+	* README
+		- Includes information to assist others in understanding the text files included in the "training" directory.
+
+Running Instructions:
+	1.	Open a terminal on Linux and change the directory to the one containing "new.training.txt" and "task.3.txt." files, along with "ooclassifierbasev3.py" file.
+	2. Run the following command: "python3 ooclassifierbasev3.py <text_file_name>".
+	3. Here, <text_file_name> should be replaced with the name of the
+	textfile, either <new.training.txt> or <task.3.txt.>.
+
+Assumptions:
+	None

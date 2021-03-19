@@ -1,0 +1,65 @@
+commit b69a8c09ce262543537744a9cd19b4f7b002f0ab
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Mon Nov 16 17:22:24 2020 -0700
+
+    final commit; tested oominimax.py file several times using makefile tests and personally created tests; done README
+
+commit 5da091cdfbeb46f16b198e52f6b6faaacb8af4e2
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Mon Nov 16 16:03:39 2020 -0700
+
+    added get_player_choice, set_player_choice, get_player_val, and set_board functions in Board class; added get_p_val function (classmethod decorator) in State class; State class inherits Board class
+
+commit b9f7234f5c523a23751a94c99bcb5f45c9ddbcaa
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sun Nov 15 22:45:20 2020 -0700
+
+    added docstrings to classes and personally created functions; fixed style errors again
+
+commit 632f387275ee0094b399f6a91cd9fac16ce6ff4f
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sun Nov 15 18:19:10 2020 -0700
+
+    fixed style errors
+
+commit 84c88d20d0640f90dd23755aa79d6b16dc566da7
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sun Nov 15 17:13:24 2020 -0700
+
+    added render function into Board class; did inital testing of the game through the main function; clean function is isolated outside of the two classes
+
+commit d0e6777c79a799b6bea97b899518d4c776e6fe5a
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sun Nov 15 17:08:42 2020 -0700
+
+    moved set_move, valid_move, ai_turn, and human_turn functions into Board class; capitalized B in Board class and S in State class
+
+commit 765168a2a8b205f5ed0f37dc6880a3e0f6d3b7bf
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sun Nov 15 00:50:56 2020 -0700
+
+    added minimax, ai_turn, and human_turn functions into state class
+
+commit 41c520dcdf77ac8a1a88e536d70aa60a51209f46
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sat Nov 14 23:09:40 2020 -0700
+
+    added evaluate, wins, game_over, set_move, and valid_move functions into state class
+
+commit f7928ec4c549bce714f53251036f732bddf5847c
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sat Nov 14 22:32:26 2020 -0700
+
+    started writing play_game function (main loop of the game); created state class and added empty_cells function within it
+
+commit 74e30368240f0c6725da47a594c8167e412c0a28
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sat Nov 14 21:53:36 2020 -0700
+
+    created a board class and added player_choice and goes_first functions within it
+
+commit cb2cb78256deb4367abac9a84b5411b841919071
+Author: Krish Gandhi <gandhi@ualberta.ca>
+Date:   Sat Nov 14 12:04:25 2020 -0700
+
+    my first commit; added file header

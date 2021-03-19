@@ -1,0 +1,7 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Exercise #5: New Training Data, Task III
+
+Knowing my original training data had a precision of 0.85 and an accuracy of 0.71, I used the precision and accuracy formulas to determine the types of new training instances I needed to add in order to achieve a precision above 0.90 and an accuracy below 0.65. By examining the precision formula, I found that precision could only increase by adding more TP training instances. Hence, I added TP training instances such as “watch and learn from how the best players in your position play” and “shield the ball with your body” until the precision was above 0.90. Consequently, through the addition of more TP training instances, the accuracy had also increased. Based on the accuracy formula, I recognized two approaches to decrease the accuracy. One way was by adding more FP training instances. Although this approach would decrease the accuracy, adding more FP training instances would also decrease the precision. Therefore, this was not an efficient approach to use as I would need to go back and forth between precision and accuracy to attain the goal. As a result, the second approach, which was to add more FN training instances, was used and I was efficiently able to achieve a precision above 0.90 and an accuracy below 0.65. Some of the new FN training instances included “develop field vision” and “study the strengths and weaknesses of opponents before each game.” The success behind adding more FN training instances was that it did not change the precision.

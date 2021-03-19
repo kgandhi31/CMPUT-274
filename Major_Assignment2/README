@@ -1,0 +1,53 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Assignment #2: Huffman Coding
+
+Running Instructions:
+	1. Copy the "util.py" file to the directory containing "huffman.py",
+	"bitio.py", "compress.py", and "decompress.py" files, and the
+	"wwwroot" directory.
+	2. Open a terminal on Linux and change to the directory containing
+	all those files and the "wwwroot" directory.
+	3. To compress files, run the following command:
+		"python3 compress.py <file1> <file2> ..."
+	4. To decompress files, run the following command:
+		"python3 decompress.py <file1> <file2> ..."
+	5. In steps 3 and 4, "<file1> <file2> ..." should be replaced by the
+	names of the files to be compressed or decompressed, and must exist in
+	the current directory of all the previously stated files and directory.
+	6. To compress a file using the "wwwroot" directory, open a terminal
+	in this directory and run the following command:
+		"python3 ../compress.py somefile.ext"
+		-> Here, "somefile" is the name of the file to compress and ".ext"
+		is the extension.
+		-> Open a browser and go to the url
+		"http://localhost:8000/somefile.ext" to view and/ or download the
+		decompressed file.
+	7. To decompress a file using the "wwwroot" directory, open a terminal
+	in this directory and run the following command:
+		"python3 ../webserver.py"
+		->	Open a browser and go to the url "http://localhost:8000". The
+		decompressor is successful if the webpage is visible and the image
+		of Huffman appears.
+
+Assumptions:
+	1. A valid stream is used for all the functions in the "util.py" file.
+	The program was not created to handle an invalid stream.
+	2. For the "decompress" function, the "compressed" file has the
+	extension ".huf" and contains None, indicating the end-of-file.
+
+Notes:
+	1. For the "compress" function, None is written to the "compressed"
+	file so that end-of-file symbol exists for the "decompress" function.
+	2. After None is written to the "compressed" file, the "flush"
+	function is called to write out any partial bytes to the file.
+	3. If step 3 is executed in the running instructions, the compressed
+	versions of the orginal files named "<file1>.huf <file2>.huf ..." will
+	be created in the in the current directory of all the previously
+	stated files and directory.
+	4. If step 4 is executed in the running instructions, the decompressed
+	versions of the orginal files named "<file1> <file2> ..." will be
+	created in the in the current directory of all the previously stated
+	files and directory.

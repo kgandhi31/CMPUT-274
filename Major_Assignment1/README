@@ -1,0 +1,37 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Assignment #1: OO Classifier
+
+Running Instructions:
+	1. The "ooclassifier.py" file can be tested via
+	"from ooclassifier import *" entered in another python file.
+	2. Open a terminal on Linux and change the directory to the one
+	containing the "ooclassifier.py", the other python file, and the
+	training data text file.
+	2. Run the following command: 
+	"python3 <other_python_filename> <training_data_filename>.
+
+Assumptions:
+	1. For the preprocessing in the classifier, if a mode entered does not
+	match "keep-digits" or "keep-stops" or "keep-symbols", then full
+	preprocessing will occur.
+	2. For the "target_top_n" method, if a tie occurs at the num-th	rank,
+	then it is assumed that all of the words with the same frequency of the
+	num-th rank are also included in the new list of target words.
+	Therefore, it is possible to have more than "num" new target words.
+
+Notes:
+	1. The frequency of all the words in the training instances that is
+	calculated by the "target_top_n" method is based on if the training
+	dataset has been preprocessed or not.
+	2. Since "ClassifyByTopN" is a subclass of "ClassifyByTarget", it
+	supports all of the existing methods of the class "ClassifyByTarget".
+	3. Future optimizations of deepcopy should reduce time or space
+	efficiency issues.
+	4. For the "return_nfolds" method, it is possible that the folds are
+	not exactly equal in size. They can be off-by-one if "num" does not
+	divide evenly into the number of training instances.
+	5. The interface or semantics of any of the existing methods and
+	attributes of the existing classes did not change.

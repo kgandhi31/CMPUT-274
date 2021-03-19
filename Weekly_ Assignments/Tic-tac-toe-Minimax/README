@@ -1,0 +1,58 @@
+Name: Krish Gandhi
+ID #: 1621641
+CMPUT 274, Fall 2020
+
+Weekly Assignment #6: Object-Oriented Minimax
+
+Included Files:
+	* submit.git.log.txt
+		- The git log containing all the commits made while working on this
+		assignment. The log includes the date and time of the commits as
+		well as a description of the changes made to the oominimax.py file.
+	* debugger.png
+		- A screenshot of the Wing debugger running the minimax.py file
+		that shows my name and the stack frames of the minimax() recursive
+		function highlighted by the green boxes.
+	* oominimax.py
+		- An OO version of the orginal minimax.py file.
+	* README
+		- Includes information to assist others in understanding the files
+		included in the "oominimax" directory.
+
+Running Instructions:
+	1. Open a terminal on Linux and change the directory to the one
+	containing the "oominimax.py" file.
+	2. The program can be run in the following ways:
+		a) Run the following command: "python3 oominimax.py". In this way,
+		the program takes standard input.
+		b) Run the following command:
+			"python3 oominimax.py < input_file_name > > output_file_name"
+		This way is using I/O redirection and printing the output of the
+		oominimax.py file to the "output_file_name" file. Here, the
+		"input_file_name" file must be in the same directory as the
+		oominimax.py file.
+
+Assumptions:
+	1. The oominimax.py program is only an OO modification of the original
+	non-OO minimax.py program. There may have been changes made to the
+	parameters and identifiers, but most of the code was reused and both
+	programs should behave and output the same results.
+
+Notes:
+	1. The Board class encapsulates setting up the tic-tac-toe board (i.e.
+	deciding what mark represents the human and the computer and whose
+	going first), updating it after each player's turn, and running the
+	main loop of game. This class also contains the constant "HUMAN" and
+	"COMP" values within a getter function.
+	2. The State class encapsulates functions that tells something about
+	the current tic-tac-toe board. This includes finding empty cells, what
+	is the best move for the computer, and checking win conditions for a
+	player. The "get_p_val" function uses a classmethod decorator approach
+	to return the HUMAN or COMP value, and thus "self" is not referenced
+	and a Board instance is not instantiated when a call to this function
+	is made.
+	3. State class does inherit Board class, and therefore "get_p_val"
+	function is able to do its task correctly.
+	4. Future integration of inheritance can be defintely done, but was
+	optional in this assignment.
+	5. Docstrings were added to personally created classes and functions.
